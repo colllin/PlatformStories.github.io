@@ -5,6 +5,14 @@ permalink: /demos/
 
 **Quick previews of our projects**
 
+Floods. [Colorado, 9/13]({{ site.baseurl }}/pages/flood-water/foothills.html). [Louisiana, 8/16]({{ site.baseurl }}/pages/flood-water/baton-rouge.html). [North Carolina, 10/16]({{ site.baseurl }}/pages/flood-water/north-carolina.html). [Maroantsetra (updated), 3/17]({{ site.baseurl }}/pages/flood-water/maroantsetra.html).
+
+Click on each tab to toggle the corresponding layer.
+
+[Flooding in Maroantsetra from hurricane Enawo, 3/17]({{ site.baseurl }}/pages/enawo-madagascar/maroantsetra.html)
+
+Mask shows flood water. Click on each tab to toggle the corresponding layer.
+
 [Population centers on Nigeria/Cameroon mosaic]({{ site.baseurl }}/pages/building-detection-large-scale/deploy-results.html)
 
 Green indicates building presence with high confidence.
@@ -27,4 +35,4 @@ Green is water gain, red is water loss.
 
 [Properties with swimming pools, Adelaide, Australia]({{ site.baseurl }}/pages/swimming-pools/adelaide-classified-properties.html)
 
-Green is pool, red is no pool. Click on each polygon to see the classification.
+Green is pool, red is no pool.

@@ -1648,4 +1648,3 @@ You may find the following links helpful:
 + [Object detection with Theano and Caffe](https://github.com/DigitalGlobe/gbdx-caffe)
 + [Building GPU docker containers for GBDX](https://github.com/DigitalGlobe/gbdx-gpu-docker)
 + [CUDA 6.5 on AWS GPU Instance Running Ubuntu 14.04](http://tleyden.github.io/blog/2014/10/25/cuda-6-dot-5-on-aws-gpu-instance-running-ubuntu-14-dot-04/)
-+ [cloud-harness: Build custom GBDX tasks for beginners](http://cloud-harness.readthedocs.io/en/latest/)
