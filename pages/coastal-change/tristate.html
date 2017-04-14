@@ -47,30 +47,31 @@ var map = new mapboxgl.Map({
 
 map.on('load', function() {
 
-    // map.addSource('coastal-change-pre', {
-    //     'type': 'raster',
-    //     'url': 'mapbox://platformstories.coastal-change-pre',
-    //     'tileSize': 256
-    // });
+    map.addSource('coastal-change-pre', {
+        'type': 'raster',
+        'url': 'mapbox://platformstories.coastal-change-pre',
+        'tileSize': 256
+    });
+
+    map.addLayer({
+        'id': 'coastal-change-pre',
+        'type': 'raster',
+        'source': 'coastal-change-pre'
+    });
+
+    map.addSource('coastal-change-tristate', {
+        'type': 'raster',
+        'url': 'mapbox://platformstories.coastal-change-tristate',
+        'tileSize': 256
+    });
+
+    //  // use the full tileset url in order to specify the encoding as png, so as to achieve transparency
+    //  map.addSource('coastal-change-tristate', {
+    //    'type': 'raster',
+    //    'url': 'https://api.mapbox.com/v4/platformstories.coastal-change-tristate/{z}/{x}/{y}.png?access_token=' + mapboxgl.accessToken,
+    //    'tileSize': 256
+    //  });
     //
-    // map.addLayer({
-    //     'id': 'coastal-change-pre',
-    //     'type': 'raster',
-    //     'source': 'coastal-change-pre'
-    // });
-
-    // map.addSource('coastal-change-tristate', {
-    //     'type': 'raster',
-    //     'url': 'mapbox://platformstories.coastal-change-tristate',
-    //     'tileSize': 256
-    // });
-
-     // use the full tileset url in order to specify the encoding as png, so as to achieve transparency
-     map.addSource('coastal-change-tristate', {
-       'type': 'raster',
-       'url': 'https://api.mapbox.com/v4/platformstories.coastal-change-tristate/{z}/{x}/{y}.png?access_token=' + mapboxgl.accessToken,
-       'tileSize': 256
-     });
 
     map.addLayer({
         'id': 'coastal-change-tristate',
